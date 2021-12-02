@@ -1,3 +1,2 @@
-# 101235165_assignment2_backend
+# Assignment 2 backend 
 
-https://github.com/rutikpatel/101235165_assignment2_frontend

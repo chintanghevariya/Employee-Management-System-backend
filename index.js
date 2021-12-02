@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const empRouter = require("./routes/EmpRoutes");
 
-const DB_URL ="mongodb+srv://rutikpatel:Rutik123@com3123.4rasi.mongodb.net/f2021_comp3123?retryWrites=true&w=majority"
+const DB_URL ="mongodb+srv://chintan:Chintan123@comp3123.xcrku.mongodb.net/101236361_assignment2?retryWrites=true&w=majority"
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -28,6 +28,6 @@ app.get('/', (req, res) => {
 
 app.use(empRouter);
 
-app.listen(9090, () => {
-    console.log("Server is listening on port 9090");
+app.listen(9000, () => {
+    console.log("Server is listening on port 9000");
 });

@@ -15,7 +15,7 @@ app.post('/api/employees', async(req, res) => {
     }
 }); 
 
-// Retrieve all Employees
+// Retrieve all Emp
 
 app.get('/api/employees', async(req, res) => {
     const result = await empModel.find({})
@@ -27,7 +27,7 @@ app.get('/api/employees', async(req, res) => {
     }
 });
 
-// Retrieve a single Employee with EmpId
+// Retrieve a single emp with EmpId
 app.get('/api/employees/:empId', async(req, res) => {
 
     try{
@@ -37,7 +37,7 @@ app.get('/api/employees/:empId', async(req, res) => {
     }
 });
 
-// Update single employee with EmpId
+// Update single emp with EmpId
 app.put('/api/employees/:empId', async(req, res) => {
 
     try{
@@ -50,7 +50,7 @@ app.put('/api/employees/:empId', async(req, res) => {
     }
 });
 
-// Delete a Note with noteId
+// Delete a emp with EmpId
 app.delete('/api/employees/:empId', async(req, res) => {
 
     try {
